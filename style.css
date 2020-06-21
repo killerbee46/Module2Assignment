@@ -1,0 +1,81 @@
+body{
+	margin-bottom: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.box{
+	background-color: gray;
+	border: 1px solid black;
+	width: 95%;
+	height: auto;
+	margin: auto auto auto 10px;
+	position: relative;
+}
+.head{
+	float: right;
+	position: relative;
+	width: 150px;
+	height: 20px;
+	top: 0;
+	right: 0;
+	font-weight: bold; 
+	border: 1px solid black;
+	text-align: center;
+	margin-bottom: 5px;
+	
+}
+section{
+	clear: both;
+	padding: 10px;
+}
+#chick{
+	background-color: pink;
+}
+#beef{
+	background-color: red;
+}
+#sush{
+	background-color: yellow;
+}
+h1{
+	text-align: center;
+}
+.row{
+	width: 100%;
+}
+
+
+@media (min-width:1200px){
+	.col-lg-4{
+		float: left;
+	}
+	.col-lg-4{
+	width:33.33%;
+}
+}
+@media (min-width: 950px) and (max-width: 1199px){
+	.col-md-6, .col-md-12{
+		float: left;
+	}
+
+.col-md-6{
+	width:50%;
+}
+.col-md-12{
+	width: 100%;
+	margin-top: 10px;
+}
+}
+@media (max-width: 949px){
+	.col-sm-12{
+		float: left;
+	}
+	.col-sm-12{
+	width: 100%;
+	margin-top: 10px;
+}
+
+}
+
